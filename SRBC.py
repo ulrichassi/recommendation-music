@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
-img= Image.open('e.png')
+
 # supprime streamlit de la barre
 st.set_page_config(
    page_title="Song Recommendation",
